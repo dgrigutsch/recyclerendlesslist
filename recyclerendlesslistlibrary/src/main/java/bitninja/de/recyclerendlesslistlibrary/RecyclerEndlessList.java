@@ -87,6 +87,26 @@ public class RecyclerEndlessList extends FrameLayout implements SwipeRefreshLayo
         }));
     }
 
+    public void setRefreshing(boolean refreshing){
+        swipeRefreshLayout.setRefreshing(refreshing);
+    }
+
+    public void setProgressBackgroundColor(int colorRes){
+        swipeRefreshLayout.setProgressBackgroundColor(colorRes);
+    }
+
+    public void setSize(int size){
+        swipeRefreshLayout.setSize(size);
+    }
+
+    public void setColorSchemeColors(int... colors){
+        swipeRefreshLayout.setColorSchemeColors(colors);
+    }
+
+    public void setColorSchemeResources(int... colorResIds){
+        swipeRefreshLayout.setColorSchemeResources(colorResIds);
+    }
+
     public RecyclerViewEndlessListener getRecyclerViewEndlessListener() {
         return recyclerViewEndlessListener;
     }
