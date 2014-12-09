@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RecyclerEndlessList.iml" filepath="$PROJECT_DIR$/RecyclerEndlessList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerendlesslistlibrary/recyclerendlesslistlibrary.iml" filepath="$PROJECT_DIR$/recyclerendlesslistlibrary/recyclerendlesslistlibrary.iml" />
+    </modules>
+  </component>
+</project>
+
