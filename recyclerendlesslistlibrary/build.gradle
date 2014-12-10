@@ -34,8 +34,12 @@ dependencies {
 
 apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
 
-uploadArchives {
-    repositories.mavenDeployer {
-        repository(url: "file:///Users/dgrigutsch/Documents/maven-repository/")
-    }
-}
+//uploadArchives {
+//    repositories.mavenDeployer {
+//        pom.groupId = 'de.bitninja'
+//        pom.artifactId = 'recycler-endlesslist-library'
+//        pom.version = '1.0.0'
+//        repository(url: "file:///Users/dgrigutsch/Documents/maven-repository/")
+//    }
+//}
+

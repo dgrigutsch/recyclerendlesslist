@@ -120,6 +120,8 @@ public class MainActivity extends ActionBarActivity {
             strings.add("Q");
             testAdapter.addAll(strings);
 
+            endlessList.setRefreshing(false);
+
         }
 
         @Override
